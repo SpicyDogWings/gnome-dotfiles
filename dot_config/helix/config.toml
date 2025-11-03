@@ -1,0 +1,40 @@
+
+theme="base16_transparent"
+
+[editor]
+line-number = "relative"
+true-color = true
+mouse = false
+cursorline = true
+auto-format = false
+bufferline = "always"
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-modification-indicator"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERTAR"
+mode.select = "SELECCIÓN"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.smart-tab]
+enable = false
+
+[editor.lsp]
+display-messages = true
+auto-signature-help = true
