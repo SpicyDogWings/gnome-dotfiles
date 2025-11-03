@@ -117,3 +117,376 @@ chezmoi add .wezterm.lua
 clear
 ls
 exit
+sudo dnf remove lazygit
+cd /home/unancodelinux/.local/share/chezmoi
+clear
+ls
+gitui
+git push
+gitui
+git fetch
+git push
+git remote origin
+git remote get-url origin
+git remote remove origin
+git remove add origin git@dotfiles.com:SpicyDogWings/gnome-dotfiles.git
+git remote add origin git@dotfiles.com:SpicyDogWings/gnome-dotfiles.git
+cd /home/unancodelinux/.ssh
+ls
+cat dotfiles
+cat dotfiles.pub
+git push
+exit
+git push
+git push --set-upstream origin main
+git fetch
+git push --set-upstream origin main
+clear
+yazi
+clear
+ls
+exit
+cd /home/unancodelinux/.config/helix
+npm install -g intelephense<\n>
+pnpm install -g intelephense<\n>
+clear
+cd /home/unancodelinux/.config/nushell
+exit
+hx .
+fnm
+node
+exit
+fnm
+exit
+fnm
+exit
+fnm
+exit
+yazi
+hx .
+clear
+ls
+hx .
+hz
+hx
+opencode
+exit
+exit
+opencode
+exit
+curl -o- https://fnm.vercel.app/install | bash
+fnm
+exi
+cd /home/unancodelinux/.config/nushell
+hx 
+fnm
+exit
+exit
+fnm i 24
+node -v
+exit
+node -c
+node -v
+exit
+cd /home/unancodelinux/.config/nushell
+ls
+dnm
+fnm
+exit
+ls
+fz
+fnm
+exit
+fnm env --shell bash
+witch fnm
+which fnm
+curl -fsSL https://fnm.vercel.app/install | bash<\n>
+ls ~/.local/bin<\n>
+~/.local/share/fnm/<\n>
+ls ~/.local/share/fnm/<\n>
+fnm -v
+exit
+fnm
+fnm -v
+fnm -V
+exit
+fnm --list
+fnm list
+exit
+exit
+cd /home/unancodelinux/.config/nushell
+ls
+cd /home/unancodelinux/.config/nushell
+hx
+let env_vars = (fnm env --shell=posix | from json)<\n>$env.PATH = ($env_vars.PATH | str split ":" | to text -j ":")<\n>node --version<\n>
+cd /home/unancodelinux/.config/nushell
+nu -v
+fnm env --shell=bash
+exit
+exit
+node -v
+fnm -V
+fnm env --shell=bash<\n>
+exit
+node -v
+source ~/.config/nushell/env.nu
+node -v
+fnm list
+exit
+fnm list<\n>fnm current<\n>fnm env --shell=bash | grep FNM_DIR<\n>
+echo $fnm_dir<\n>
+exit
+node -v
+ls /home/unancodelinux/.local/share/fnm/aliases/<\n>ls /home/unancodelinux/.local/share/fnm/node-versions/<\n>
+clear
+ls /home/unancodelinux/.local/share/fnm/aliases/
+ls /home/unancodelinux/.local/share/fnm/node-versions/
+exit
+node -v
+clear
+exit
+node -v
+exit
+node -v
+exit
+node -v
+exit
+cd /home/unancodelinux/.local/share/fnm/aliases/default/bin
+node -v
+./node -v
+clear
+node -v
+exit
+exit
+node -v
+source ~/.config/nushell/env.nu
+node -v
+exit
+node -v
+exit
+cd /home/unancodelinux/.local/share/fnm/aliases/default/bin
+ls
+load_fnm<\n>echo $env.PATH<\n>
+source ~/.config/nushell/env.nu
+source ~/.config/nushell/config.nu
+load_fnm<\n>echo $env.PATH<\n>
+clear
+exit
+echo $env.PATH
+exit
+echo $env.PATH
+exit
+echo $env.PATH
+exit
+dnf copr enable atim/starship
+sudo dnf copr enable atim/starship
+dnf install starship
+sudo dnf install starship
+exit
+clear
+ls
+celar
+clear
+exit
+starship preset jetpack -o ~/.config/starship.toml
+clear
+ls
+exit
+ls
+clear
+ls
+starship preset pure-preset -o ~/.config/starship.toml
+clear
+ls
+clear
+exit
+clear
+exit
+hx env.nu
+exit
+zellij
+exit
+zellij
+exit
+zellij
+cargo-seek
+exit
+node -v
+fnm list
+exit
+cargo-seek
+exti
+exit
+opencode
+exit
+opencode
+exit
+cd /home/unancodelinux/.local/share/fnm
+pwd
+ls
+ls aliases
+ls aliases/default/
+ls aliases/default/bin/
+fnm use default
+echo $env.PATH
+cd
+cat .bashrc
+hx .bashrc
+rm -r zshrc
+rm .zshrc
+exit
+exit
+echo $env.PATH
+cargo-seek
+echo $env.PATH
+rg --no-ignore --hidden -l "cargo/bin" ~/.config/ ~/.*rc ~/.*profile /etc/<\n>
+rg --no-ignore --hidden -l "cargo/bin" ~/.config/ ~/.*rc ~/.*profile
+rg --no-ignore --hidden -l "cargo/bin" ~/.config/ ~/.*rc ~/.*profile ~/
+rg --no-ignore --hidden -l "cargo/bin" ~/.config/ ~/.*rc ~/.*profile ~/.local
+rg --no-ignore --hidden -l "cargo/bin" ~/.config/ ~/.*rc ~/.*profile ~/.local | fzf
+exit
+hx env.nu
+exit
+hx env.nu
+exit
+zellij
+exit
+yazi
+zellij
+hx ~/.config/nushell/
+history | fzf
+echo $env.PATH
+history | fzf
+hx ~/.config/nushell/
+exit
+zellij
+hx
+clear
+echo $env.PATH
+celar
+clear
+echo $env.PATH
+exit
+yazi
+cd /home/unancodelinux/.config/nushell
+ls
+hx config.nu
+hx env.nu
+exit
+echo $env.PATH
+hx /home/unancodelinux/.config/nushell/env.nu
+exit
+echo $env.PATH
+opencode
+clear
+exit
+zellij
+fzf
+fnm
+hx /home/unancodelinux/.config/nushell/env.nu
+exit
+ls
+ls -la
+ls
+cd .local/share/fnm/
+LS
+ls
+fnm list
+fnm -h
+fnm env
+fnm current
+opencode
+cd
+hx .config/nushell/env.nu 
+exit
+hx .config/nushell/env.nu 
+exit
+hx .config/nushell/env.nu 
+exit
+node --version<\n>echo $env.PATH<\n>
+echo $env.PATH
+clear
+exit
+hx .config/nushell/env.nu 
+exit
+hx .config/nushell/env.nu 
+exit
+hx .config/nushell/env.nu 
+exit
+rm -rf ~/.local/share/fnm<\n>
+hx .config/nushell/env.nu 
+rm -f /usr/local/bin/fnm<\n>
+cargo uninstall fnm<\n>
+bat
+cargo-seek
+exit
+bat .zshrc
+var
+bat
+clear
+ls
+la
+ls -a
+bat .wezterm.lua
+clear
+bat .wezterm.lua
+clear
+rm -f ~/.fnm<\n>rm -f ~/.node-version<\n>
+which fnm<\n>
+clear
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+witch nvm
+which nvm
+ls
+ls -a
+rm -r .chat2db/
+rm -r .nvm
+ls
+cd .local/
+ls
+cd bin
+ls
+exit
+curl https://get.volta.sh | bash
+volta install node@24
+hx .config/nushell/env.nu 
+exit
+volta -h
+exit
+volta -h
+volta install node@24
+node -v
+corepack enable pnpm
+exit
+corepack enable pnpm
+clear
+corepack enable pnpm
+corepack --version<\n>
+node corepack --version<\n>
+volta install pnpm<\n>
+pnpm
+clear
+exit
+yazi
+hx .config/nushell/config.nu 
+exit
+clear
+ls
+exit
+zellij
+exit
+cd /home/unancodelinux/.config/helix
+npm install -g intelephense<\n>
+pnpm install -g intelephense<\n>
+pnpm setup
+source /home/unancodelinux/.config/nushell/env.nu
+pnpm install -g intelephense<\n>
+pnpm approve-builds -g
+exit
+hx .
+exit
+cd Documents/l
+cd /home/unancodelinux/Documents/releases/sigacadv2
+hx .
+exit
+yazi

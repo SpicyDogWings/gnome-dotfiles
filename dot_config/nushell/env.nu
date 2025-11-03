@@ -100,9 +100,18 @@ $env.NU_PLUGIN_DIRS = [
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
 
-let cargo_path = ('~/.cargo/bin' | path expand)
-$env.PATH = ($env.PATH | prepend $cargo_path)
+
+#--------------
+# My configs
+#--------------
+ 
+# editor
 $env.EDITOR = "hx"
 
+use std/util "path add"
 
-
+path add ($env.HOME | path join ".cargo" "bin")
+path add ($env.HOME | path join ".opencode" "bin")
+path add ($env.HOME | path join ".volta" "bin")
+$env.PNPM_HOME = "/home/unancodelinux/.local/share/pnpm"
+$env.PATH = ($env.PATH | split row (char esep) | prepend $env.PNPM_HOME )

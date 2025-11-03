@@ -9,6 +9,7 @@ cursorline = true
 auto-format = false
 bufferline = "always"
 color-modes = true
+shell = ["nu", "-c"]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -38,3 +39,4 @@ enable = false
 [editor.lsp]
 display-messages = true
 auto-signature-help = true
+
