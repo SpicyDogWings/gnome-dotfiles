@@ -1,0 +1,119 @@
+cargo remove nu
+cargo uninstall nu
+clear
+exit
+nu
+exit
+clear
+exit
+ls
+clear
+ls
+yazi
+sudo dnf install yazi
+fastfetch
+sudo dnf install jq poppler fd rg fzf zoxide 
+exit
+dnf copr enable lihaohong/yazi<\n>dnf install yazi
+sudo dnf copr enable lihaohong/yazi<\n>sudo dnf install yazi
+clear
+yazi
+sudo dnf install zellij
+yazi
+cargo install --locked zellij<\n>
+cargo binstall zellij<\n>
+cargo install cargo-seek
+sudo dnf install openssl-devel<\n>
+cargo install cargo-seek
+cargo-seek
+yazi
+source nu
+exit
+yazi
+echo $env.PATH<\n>
+cargo-seek
+exit
+clear
+cargo-seek
+cd .confgi
+cd .config
+ls
+cd nushell/
+ls
+hx config.nu
+exit
+cargo-seek
+hx .config/nushell/env.nu
+exit
+hx .config/nushell/env.nu
+hx .config/nushell/config.nu
+config nu
+cd .config
+ls
+cd nushell
+ls
+cargo-seek
+hx env.nu
+exit
+sudo dnf install perl-FindBin<\n>
+cargo-seek
+sudo dnf install openssl-devel perl-FindBin libssh-devel ncurses-devel cmake gcc-c++
+sudo dnf install perl-FindBin<\n>
+cargo-seek
+ls
+exit
+cargo binstall zellij
+clear
+ls
+exit
+zellij
+exit
+clear
+ls
+yazi
+clear
+ls
+cargo-seek
+ls
+exit
+sudo dnf install gitui
+cd /home/unancodelinux/.local/share/chezmoi
+ls
+gitui
+clear
+ls
+yazi
+exit
+exit
+zellij
+exit
+clear
+ls
+clear
+ls
+yazi
+cd .config/yazi
+hx .config/nushell/config.nu
+hx .config/nushell/env.nu.nu
+hx .config/nushell/env.nu
+exit
+yazi
+chezmoi add .
+clear
+ls
+cd
+exit
+chezmoi cd
+clear
+ls
+cd /home/unancodelinux/.local/share/fonts
+ls
+chezmoi add .
+clear
+exi
+exit
+hx /home/unancodelinux/.wezterm.lua
+chezmoi add .wezterm.lua
+clear
+ls
+exit
