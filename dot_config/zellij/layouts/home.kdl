@@ -1,0 +1,49 @@
+
+layout {
+    tab name="HOME" {
+        pane {
+            focus true
+            name "Explorer"
+            size "58%"
+            command "yazi"
+        }
+        pane {
+            name "System"
+            cwd "/"
+            size "40%"
+            command "btm"
+        }
+    }
+
+    tab name="DEVBOX" split_direction="vertical" {
+    	pane {
+    		cwd "~/spicydevbox"
+    		name "Development"
+    		command "hx"
+    		args "compose.yml"
+    	}
+    	pane {
+    	    cwd "~/spicydevbox"
+    		name "Development"
+    	}
+    }
+
+    
+    tab name="PROYECTS" {
+    	pane {
+    		cwd "~/Documents/releases"
+    		name "Proyects"
+    	}
+    }
+    
+	default_tab_template split_direction="horizontal" {
+	    children
+	    pane {
+	        name "Tabs"
+	        size "2%"
+	        borderless true
+	        plugin location="zellij:tab-bar"
+	    }
+	}
+}
+

@@ -1,0 +1,44 @@
+
+layout {
+    tab name="HELIX" {
+        pane split_direction="vertical" {
+            pane {
+                name "Explorer"
+                command "nu"
+                args "-c" "$env.YAZI_CONFIG_HOME = '/home/unancodelinux/.config/yazi/sidebar'; yazi"
+            	size "15%"
+            }
+            pane size="85%" {
+                pane split_direction="vertical" size="80%" {
+                    pane {
+                        focus true
+                        size "70%"
+                        name "Editor"
+                        command "hx"
+                        args "."
+                    }
+                    pane {
+                        size "30%"
+                        name "Chat"
+                        command "opencode"
+                    }
+                }
+                pane {
+                    name "Shell"
+                    size "20%"
+                }
+            }
+        }
+    }
+
+	default_tab_template split_direction="horizontal" {
+	    children
+	    pane {
+	        name "Tabs"
+	        size "2%"
+	        borderless true
+	        plugin location="zellij:tab-bar"
+	    }
+	}
+}
+
