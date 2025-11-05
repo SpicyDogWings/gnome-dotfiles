@@ -1,24 +1,44 @@
 
 layout {
-    tab name="HOME" {
+    tab name=" Casa" {
         pane {
             focus true
-            name "Explorer"
+            name "Explorador"
             size "58%"
             command "yazi"
         }
         pane {
-            name "System"
+            name "Sistema"
             cwd "/"
             size "40%"
             command "btm"
         }
     }
+
+    tab name=" Entorno Dev" split_direction="vertical" {
+    	pane {
+    		cwd "~/spicydevbox"
+    		name "Dev environment"
+    		command "hx"
+    		args "compose.yml"
+    	}
+    	pane {
+    	    cwd "~/spicydevbox"
+    		name "Terminal"
+    	}
+    }
+
+    
+    tab name=" Developer" {
+    	pane {
+    		cwd "~/Documents/releases"
+    		name "Proyectos"
+    	}
+    }
     
 	default_tab_template split_direction="horizontal" {
 	    children
 	    pane {
-	        name "Tabs"
 	        size "2%"
 	        borderless true
 	        plugin location="zellij:tab-bar"

@@ -21,6 +21,7 @@ layout {
                         size "30%"
                         name "Chat"
                         command "opencode"
+                        args "."
                     }
                 }
                 pane {

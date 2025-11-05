@@ -1,14 +1,10 @@
 # Vue js
-#   Configuración del servidor de Vue Language
 [language-server.vue-language-server]
 command = "npx"
 args = ["@vue/language-server", "--stdio"]
-
 [language-server.vue-language-server.config]
 vue = { hybridMode = false }
 typescript = { tsdk = "node_modules/typescript/lib" }
-
-#   Configuración del lenguaje Vue
 [[language]]
 name = "vue"
 scope = "source.vue"
@@ -18,12 +14,9 @@ roots = ["package.json", "vite.config.js", "vite.config.ts", "vue.config.js", "n
 language-servers = ["vue-language-server", "typescript-language-server"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "vue"] }
-
-#   Configuración del servidor TypeScript con plugin de Vue
 [language-server.typescript-language-server]
 command = "typescript-language-server"
 args = ["--stdio"]
-
 [language-server.typescript-language-server.config]
 plugins = [
   { name = "@vue/typescript-plugin", location = "@vue/language-server", languages = ["vue"] }
@@ -43,26 +36,18 @@ formatter = { command = "prettier", args = ["--parser", "typescript"] }
 # javascript
 [[language]]
 name = "javascript"
-language-servers = ["typescript-language-server", "eslint-lsp"]
+language-servers = ["vscode-langservers-extracted", "eslint-lsp"]
 file-types = ["js", "jsx", "mjs"]
 roots = ["package.json", ".git"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "babel"] }
 
 
-# json
-[[language]]
-name = "json"
-file-types = ["json", "jsonc"]
-language-servers = ["vscode-json-language-server"]
-formatter = { command = "prettier", args = ["--parser", "json"] }
-
-
 # html
 [[language]]
 name = "html"
 file-types = ["html"]
-language-servers = ["vscode-html-language-server"]
+language-servers = ["vscode-langservers-extracted"]
 formatter = { command = "prettier", args = ["--parser", "html"] }
 
 
@@ -70,7 +55,7 @@ formatter = { command = "prettier", args = ["--parser", "html"] }
 [[language]]
 name = "css"
 file-types = ["css", "scss", "sass", "less"]
-language-servers = ["vscode-css-language-server"]
+language-servers = ["vscode-langservers-extracted"]
 formatter = { command = "prettier", args = ["--parser", "css"] }
 
 
@@ -84,19 +69,10 @@ roots = ["composer.json", ".git", "index.php"]
 auto-format = true
 comment-token = "//"
 indent = { tab-width = 4, unit = "    " }
-
-# Servidores de lenguaje para PHP
 language-servers = ["intelephense"]
-
 # Configuración del servidor de lenguaje Intelephense
 [language-server.intelephense]
 command = "intelephense"
 args = ["--stdio"]
-
-# Formateo automático con php-cs-fixer
-[language.formatter]
-command = "php-cs-fixer"
-args = ["fix", "--rules=@PSR12", "--allow-risky=yes", "-"]
-
 
 
