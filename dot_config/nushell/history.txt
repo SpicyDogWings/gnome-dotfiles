@@ -1,0 +1,361 @@
+rm -rf ~/.config/nushell
+config | get
+exit
+clear
+ls
+cargo
+clear
+zellij
+clear
+cargo
+exit
+zellij
+hx .config/
+hx .config/nushell/
+config | get<\n>
+config | get --help<\n>
+config --help<\n>
+config reset
+yazi
+exit
+nu<\n>
+exit
+nu --config /tmp/empty_config.nu<\n>
+exit
+cat .config/nushell
+ls .config/nushell
+yazi
+exit
+zellij
+yazi
+exit
+clear
+yaz
+clear
+yazi
+exit
+zellij
+exit
+exi
+exit
+clear
+ls
+cd /etc
+ls
+hx passwd
+sudo hx passwd
+cd
+ls
+ls -a
+ls -la | explore
+cd .cargo
+ls
+cd bin/
+ls
+cargo uninstall un
+cargo uninstall nu
+cargo-binstall nu
+ls
+ln -s ~/.cargo/bin/nu /etc/shells/nu
+ln -s ./nu /etc/shells/nu
+ls
+ln -s nu /etc/shells/nu
+ls
+cd /etc
+ls
+cat .passwd
+cat passwd
+ln -s nu /usr/bin/nu
+sudo ln -s nu /usr/bin/nu
+exit
+exit
+sudo dnfdnf copr enable atim/starship<\n>dnf install starship
+sudo dnf copr enable atim/starship<\n>sudo dnf install starship
+clear
+exit
+clear
+ls
+starship preset pure-preset -o ~/.config/starship.toml
+cleawr
+clear
+ls
+exit
+starship preset pure-preset -o ~/.config/starship.toml
+clear
+exit
+nu
+exit
+sudo dnf install starship
+starship
+exit
+hx .config/nushell/config.nu
+:w
+exit
+hx .config/nushell/config.nu
+exit
+clear
+ls
+clear
+curl -s https://api.github.com/repos/nushell/nushell/contributors | jq -c '.[] | {login,contributions}'
+http get https://api.github.com/repos/nushell/nushell/contributors | select login contributions
+http get https://api.github.com/repos/nushell/nushell/contributors
+http get https://api.github.com/repos/nushell/nushell/contributors | explore
+clear
+echo "hello, world"
+clear
+ls
+celar
+clear
+cd
+ls
+cd Documents/
+ls
+cd canary
+ls
+cd ter-co
+ls
+hx .
+clear
+jj
+jj | explore
+clear
+jj
+sudo dnf install docker
+clear
+snapper
+snapper list
+sudo snapper list
+exit
+sudo snapper list
+ls
+sudo snapper list | from json 
+sudo snapper list | from json | table
+clear
+exit
+hx
+clear
+ls
+clear
+ls
+exit
+clear
+yazi
+exit
+yazi
+ls
+cd Docuements
+ls
+cd Docuemnts
+cd Documents/
+ls
+cd
+cd Documents/
+ls
+cd canary
+ls
+cd ter-co
+ls
+pnpm
+clear
+curl https://get.volta.sh | bash
+volta install node
+volta install pnpm
+pnpm run dev
+clear
+ls
+clear
+yazi
+cd 
+cd ter-co
+cd /home/wings/.local/share/chezmoi
+ls
+git diff
+gitui
+cargo-seek
+cargo-binstall gitui
+gitui
+clear
+ls
+exit
+ls
+exit
+clear
+exit
+yazi
+exit
+zellij
+exit
+clear
+ls
+cd Documents/
+ls
+cd
+ls
+cd Documents
+ls
+cd canary/ter-co
+ls
+clear
+ls
+code .
+clear
+zed .
+clear
+hx .
+exit
+zellij
+exit
+clear
+ls
+cd Documents/
+ls
+cd canry/ter-co
+cd canary/ter-co
+ls
+clear
+ls
+hx
+cd
+cd .config
+ls
+cd helix
+ls
+bat languages.toml
+cargo-binstall bat
+bat languages.toml
+cd 
+exit
+hx .
+hx healt vue
+healt vue
+clear
+exit
+hx
+clear
+ls
+cat "" > languages.toml
+ls
+bat languages.toml
+echo "" | save languages.toml
+echo "" | save languages.toml -f
+ls
+bat languages.toml
+bat config.toml
+clear
+yazi
+ls
+ls | where name like "lan"
+tree
+clear
+ls
+ps
+clear
+ls
+clear
+exit
+exit
+zellij
+exit
+clear
+ls
+cd init
+ls
+cd ..
+ls
+ls init
+ls -la
+cd init
+ls -la
+cd ..
+ls
+rm -r init
+ls
+Documents
+ls
+Documetns
+Documents
+cd Docuemtns
+cd Document
+ls
+cd Documents
+cd
+Docuements
+Documents
+cd Docuemtns
+cd Documents
+clear
+ls
+exit
+eza
+clear
+eza
+eza --icons
+eza --icons | lines
+ls | grid -ci
+ls | -i
+eza --time-style='+%Y-%m-%d %H:%M:%S.%3f' --no-permissions -o -alhMg --smart-group --icons=auto | <\n>detect columns --guess | <\n>into int Octal | <\n>update Size {|f| if $f.Size != - {into filesize} else {0}} | <\n>rename octal size user group modified name | <\n>metadata set --datasource-ls
+eza --icons | detect columns
+eza --icons | detect columns | into json
+eza --icons | detect columns | into in  json
+ls | grid --color
+ls | sort-by type name -i | grid -c -i
+l
+ls
+clear
+ls 
+cd Documents/
+ls
+cd canary/ter-co/
+ls
+clear
+fastfetch
+cd
+cd .config/nushell
+ls
+exi
+exit
+config nu --doc | nu-highlight | bat
+hx  .
+bat config.nu
+exit
+exi
+exit
+ls
+exit
+clear
+ls
+exit
+clear
+ls
+exit
+clear
+ls
+exi
+exit
+exit
+hx .
+zellij
+exit
+chezmoi update
+cclear
+clear
+ls
+zhomw
+zhome
+exit
+hx .config/nushell/config.nu
+exit
+zhome
+cargo-binstall bat
+cargo-binstall bottom
+exit
+zhome
+ls
+cd /home/wings/Documents/canary/ter-co
+ls
+zhx
+/home/wings/Documents/canary/ter-co
+ls
+clear
+ls
+zhx

@@ -14,27 +14,6 @@ layout {
             command "btm"
         }
     }
-
-    tab name="DEVBOX" split_direction="vertical" {
-    	pane {
-    		cwd "~/spicydevbox"
-    		name "Development"
-    		command "hx"
-    		args "compose.yml"
-    	}
-    	pane {
-    	    cwd "~/spicydevbox"
-    		name "Development"
-    	}
-    }
-
-    
-    tab name="PROYECTS" {
-    	pane {
-    		cwd "~/Documents/releases"
-    		name "Proyects"
-    	}
-    }
     
 	default_tab_template split_direction="horizontal" {
 	    children

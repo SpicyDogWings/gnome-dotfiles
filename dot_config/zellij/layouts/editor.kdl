@@ -5,7 +5,7 @@ layout {
             pane {
                 name "Explorer"
                 command "nu"
-                args "-c" "$env.YAZI_CONFIG_HOME = '/home/unancodelinux/.config/yazi/sidebar'; yazi"
+                args "-c" "$env.YAZI_CONFIG_HOME = '~/.config/yazi/sidebar'; yazi"
             	size "15%"
             }
             pane size="85%" {
